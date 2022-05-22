@@ -1,1 +1,0 @@
-'https://itsc-proyectofinal.azurewebsites.net/libro'
