@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./Components/App.";
+import { BrowserRouter } from 'react-router-dom'
+import { MainApp } from "./Components/MainApp";
+import { PatientPage } from "./Components/MedicoUserView/PatientPage";
+
 
 
 
@@ -8,6 +11,11 @@ import { App } from "./Components/App.";
 import "/style.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <App />
+  <BrowserRouter>
+    <MainApp />
+  </BrowserRouter>
+
+
+
 
 )
