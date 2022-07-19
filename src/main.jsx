@@ -4,18 +4,12 @@ import { BrowserRouter } from 'react-router-dom'
 import { MainApp } from "./Components/MainApp";
 import { PatientPage } from "./Components/MedicoUserView/PatientPage";
 
-
-
-
-
 import "/style.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+
   <BrowserRouter>
     <MainApp />
   </BrowserRouter>
-
-
-
 
 )
