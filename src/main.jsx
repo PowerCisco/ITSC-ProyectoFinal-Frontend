@@ -7,7 +7,7 @@ import { MainApp } from "./Components/MainApp";
 
 
 
-import "/style.css"
+import "./src/style.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
