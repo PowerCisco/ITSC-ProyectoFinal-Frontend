@@ -1,0 +1,23 @@
+.App{
+  text-align: center;
+}
+
+
+.content{
+  box-sizing: border-box;
+  position: relative;
+  left: 18%;
+  width: 81vw;
+  height: 100vh;
+  // background-color:  rgba(125, 152, 253, 0.2);
+  
+}
+
+
+
+@media  (max-width:1366px) {
+    .content{
+      left: 20%;
+      width:79vw;
+    }
+}
